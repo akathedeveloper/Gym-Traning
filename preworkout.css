@@ -1,0 +1,59 @@
+body {
+background: rgb(0, 0, 0);
+    margin: 20px;
+    padding:10px;
+    
+    border:5px inset rgb(183, 126, 126);
+}
+.title {
+    display: flex;
+    font-family: 'Broadway';
+    justify-content: center;
+    color: rgb(0, 247, 255);
+    font-size: 40px;
+    height: auto;
+    background-color: rgba(184, 135, 11, 0.783);
+}
+#titlebg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    background: #f4a6a6;
+    background-image: url("https://www.bing.com/th/id/OGC.64bb3128e2977f2b3e49222729d29c5f?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f0e%2f3f%2fb6%2f0e3fb6d0ad3f72c8b5f420a8e8bf7eb3.gif&ehk=zqJUWNuQVSvRlqmVdGrTNm0o3WKFgHqGJ0PTh9zxt20%3d");
+}
+.data{
+    padding: 20px;
+    display:inline-flexbox;
+    text-align: center;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color:rgb(114, 209, 18)
+}
+p{
+    background:  rgba(0, 0, 0, 0.601);
+    border-radius: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding:10px
+}
+p:hover{
+    color:coral;
+    
+}
+
+.img{
+    
+    padding: 2px;
+    width:30%;
+    height:19rem;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    border: 5px rgba(60, 3, 25, 0.706) groove;
+}
+
+
+img:hover{
+    
+    color:aquamarine}
